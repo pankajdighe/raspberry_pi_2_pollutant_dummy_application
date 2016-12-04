@@ -11,7 +11,7 @@ mqttc.loop_start()
 def read_pollutant_data():
     return random.randint(-50, 100)
 
-#publish temperature
+#publish polution data
 while 1:
     t=read_pollutant_data()
     print "Publishing data"
